@@ -3,6 +3,11 @@ pcm-volume
 This module changes the volume of a given PCM data stream. At the moment only signed 16bit PCM data is supported, also I'm not quite sure about this as my knowledge about PCM is very limited.
 I don't know whether this is the right way to do things. Feel free to contact me/open a pull request if you want to add something.
 
+Install
+-------
+
+Install with `npm install pcm-volume` or clone from GitHub and `npm install`.
+
 How to use
 ----------
 Pipe an existing stream into an instance of pcm-volume. You can get a PCM-stream from node-lame for example.
