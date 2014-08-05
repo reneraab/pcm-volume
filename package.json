@@ -1,0 +1,23 @@
+{
+  "name": "pcm-volume",
+  "description": "Transform Stream that is able to change the volume of PCM data piped in and out of it.",
+  "keywords": [
+    "pcm",
+    "volume"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "René Raab",
+    "email": "mail@reneraab.org",
+    "url": "https://reneraab.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reneraab/pcm-volume.git"
+  },
+  "main": "./index.js",
+  "bugs": {
+    "url": "https://github.com/reneraab/pcm-volume/issues"
+  },
+  "homepage": "https://github.com/reneraab/pcm-volume"
+}
