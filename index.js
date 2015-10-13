@@ -1,11 +1,11 @@
 var Transform = require('stream').Transform;
-var util = require('util');
+var inherits = require('inherits');
 
 var Volume = function() {
   this.setVolume(1.0);
   Transform.call(this);
 };
-util.inherits(Volume, Transform);
+inherits(Volume, Transform);
 
 Volume.prototype.setVolume = function(volume) {
   this.volume = volume;
