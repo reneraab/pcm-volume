@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/reneraab/pcm-volume/issues"
   },
+  "dependencies": {
+    "inherits": "^2.0.1"
+  },
   "homepage": "https://github.com/reneraab/pcm-volume"
 }
