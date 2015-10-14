@@ -2,7 +2,7 @@ var Transform = require('stream').Transform;
 var inherits = require('inherits');
 
 function Volume (volume) {
-  if (!(this instanceof Volume)) return new Volume(value);
+  if (!(this instanceof Volume)) return new Volume(volume);
   
   if (volume === undefined) volume = 1;
   this.setVolume(volume);
