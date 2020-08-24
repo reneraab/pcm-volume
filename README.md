@@ -50,5 +50,5 @@ readable.pipe(decoder); // pipe file input to decoder
 
 API
 ---
-pcm-volume is a Transform Stream (see http://nodejs.org/api/stream.html#stream_class_stream_transform_1 for more information). Pipe in your PCM data and pipe out PCM data with a different volume.
+pcm-volume is a Transform Stream (see https://nodejs.org/api/stream.html#stream_class_stream_transform for more information). Pipe in your PCM data and pipe out PCM data with a different volume.
 Use setVolume(v) to set the volume (v is a float between 0 and roughly 1.5 also you can go higher but it sounds like crap).
