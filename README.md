@@ -34,7 +34,6 @@ var decoder = new lame.Decoder({
 // Initialize speaker
 var speaker = new Speaker();
 
-
 // Create a volume instance
 var v = new volume();
 
@@ -43,9 +42,7 @@ setTimeout(function() {
     v.setVolume(0.5);
 }, 5000)
 
-
-
-v.pipe(new Speaker()); // pipe volume to speaker
+v.pipe(speaker); // pipe volume to speaker
 decoder.pipe(v); // pipe PCM data to volume
 readable.pipe(decoder); // pipe file input to decoder
 ```
